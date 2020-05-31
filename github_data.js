@@ -1,54 +1,4 @@
-// Start with this
-const githubData = [
-
-console.log(githubData[
-    {
-    "id": "8030403992",
-        "type": "PushEvent",
-        "actor": {
-            "id": 218592,
-            "login": "tashalane",
-            "display_login": "tashalane",
-            "gravatar_id": "",
-            "url": "https://api.github.com/users/tashalane",
-            "avatar_url": "https://avatars.githubusercontent.com/u/218592?"
-        },
-
-    }
-]
-
-    
-    // Skip to content
-//Search or jump to…
-
-//Pull requests
-//Issues
-//Marketplace
-//Explore
-
-//@Tlane77
-//nashville - software - school
-   // /
-    //client - side - mastery
-//31
-//121
-//191
-//Code
-//Issues 0
-//Pull requests 0 Actions
-//Projects 0
-//Wiki
-//Security 0
-//Insights
-//client - side - mastery / book - 2 - the - neophyte / chapters / github_data.js /
-//@stevebrownlee stevebrownlee Folding installations and such into book 1 as the introduction
-//cf25b28 on Nov 27, 2018
-//4408 lines(4372 sloc)  248 KB
-
-//Code navigation is available!
-// Navigate your code with ease.Click on function and method calls to jump to their definitions or references in the same repository.Learn more
-
-const githubData = [
+const githubData=[
     {
         "id": "8033299496",
         "type": "PushEvent",
@@ -4456,15 +4406,4 @@ const githubData = [
         }
     }
 ]
-© 2020 GitHub, Inc.
-    Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+console.log(githubData[6].payload.commits[0].message);    
